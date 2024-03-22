@@ -1,0 +1,157 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/kevinmuller/Desktop/Tweak-Archive/Lisa/.theos/obj/debug/arm64/Lisa.dylib'
+relocations:
+  - { offsetInCU: 0x1E, offset: 0x1E, size: 0x8, addend: 0x0, symName: _LSATestNotifications, symObjAddr: 0x0, symBinAddr: 0x8000, symSize: 0xFC }
+  - { offsetInCU: 0x37, offset: 0x37, size: 0x8, addend: 0x0, symName: _preferences, symObjAddr: 0x189B8, symBinAddr: 0x144C0, symSize: 0x0 }
+  - { offsetInCU: 0x109, offset: 0x109, size: 0x8, addend: 0x0, symName: _enabled, symObjAddr: 0x189C0, symBinAddr: 0x144C8, symSize: 0x0 }
+  - { offsetInCU: 0x130, offset: 0x130, size: 0x8, addend: 0x0, symName: _lisaView, symObjAddr: 0x189C8, symBinAddr: 0x144D0, symSize: 0x0 }
+  - { offsetInCU: 0xA4A, offset: 0xA4A, size: 0x8, addend: 0x0, symName: _isScreenOn, symObjAddr: 0x189D0, symBinAddr: 0x144D8, symSize: 0x0 }
+  - { offsetInCU: 0xA5F, offset: 0xA5F, size: 0x8, addend: 0x0, symName: _previousNotificationStyle, symObjAddr: 0x189D4, symBinAddr: 0x144DC, symSize: 0x0 }
+  - { offsetInCU: 0xA7B, offset: 0xA7B, size: 0x8, addend: 0x0, symName: _hasAddedStatusBarObserver, symObjAddr: 0x189D8, symBinAddr: 0x144E0, symSize: 0x0 }
+  - { offsetInCU: 0xA90, offset: 0xA90, size: 0x8, addend: 0x0, symName: _notificationCount, symObjAddr: 0x189DC, symBinAddr: 0x144E4, symSize: 0x0 }
+  - { offsetInCU: 0xAA5, offset: 0xAA5, size: 0x8, addend: 0x0, symName: _isDNDActive, symObjAddr: 0x189E0, symBinAddr: 0x144E8, symSize: 0x0 }
+  - { offsetInCU: 0xABA, offset: 0xABA, size: 0x8, addend: 0x0, symName: _onlyWhenDNDIsActiveSwitch, symObjAddr: 0x189E1, symBinAddr: 0x144E9, symSize: 0x0 }
+  - { offsetInCU: 0xACF, offset: 0xACF, size: 0x8, addend: 0x0, symName: _whenNotificationArrivesSwitch, symObjAddr: 0x5DB0, symBinAddr: 0x14480, symSize: 0x0 }
+  - { offsetInCU: 0xAE4, offset: 0xAE4, size: 0x8, addend: 0x0, symName: _alwaysWhenNotificationsArePresentedSwitch, symObjAddr: 0x5DB1, symBinAddr: 0x14481, symSize: 0x0 }
+  - { offsetInCU: 0xAF9, offset: 0xAF9, size: 0x8, addend: 0x0, symName: _whenPlayingMusicSwitch, symObjAddr: 0x5DB2, symBinAddr: 0x14482, symSize: 0x0 }
+  - { offsetInCU: 0xB0E, offset: 0xB0E, size: 0x8, addend: 0x0, symName: _onlyWhileChargingSwitch, symObjAddr: 0x189E2, symBinAddr: 0x144EA, symSize: 0x0 }
+  - { offsetInCU: 0xB23, offset: 0xB23, size: 0x8, addend: 0x0, symName: _hideStatusBarSwitch, symObjAddr: 0x5DB3, symBinAddr: 0x14483, symSize: 0x0 }
+  - { offsetInCU: 0xB38, offset: 0xB38, size: 0x8, addend: 0x0, symName: _hideControlCenterIndicatorSwitch, symObjAddr: 0x5DB4, symBinAddr: 0x14484, symSize: 0x0 }
+  - { offsetInCU: 0xB4D, offset: 0xB4D, size: 0x8, addend: 0x0, symName: _hideFaceIDLockSwitch, symObjAddr: 0x5DB5, symBinAddr: 0x14485, symSize: 0x0 }
+  - { offsetInCU: 0xB62, offset: 0xB62, size: 0x8, addend: 0x0, symName: _hideTimeAndDateSwitch, symObjAddr: 0x5DB6, symBinAddr: 0x14486, symSize: 0x0 }
+  - { offsetInCU: 0xB77, offset: 0xB77, size: 0x8, addend: 0x0, symName: _hideQuickActionsSwitch, symObjAddr: 0x5DB7, symBinAddr: 0x14487, symSize: 0x0 }
+  - { offsetInCU: 0xB8C, offset: 0xB8C, size: 0x8, addend: 0x0, symName: _hideUnlockTextSwitch, symObjAddr: 0x5DB8, symBinAddr: 0x14488, symSize: 0x0 }
+  - { offsetInCU: 0xBA1, offset: 0xBA1, size: 0x8, addend: 0x0, symName: _hideHomebarSwitch, symObjAddr: 0x5DB9, symBinAddr: 0x14489, symSize: 0x0 }
+  - { offsetInCU: 0xBB6, offset: 0xBB6, size: 0x8, addend: 0x0, symName: _hidePageDotsSwitch, symObjAddr: 0x5DBA, symBinAddr: 0x1448A, symSize: 0x0 }
+  - { offsetInCU: 0xBCB, offset: 0xBCB, size: 0x8, addend: 0x0, symName: _hideComplicationsSwitch, symObjAddr: 0x5DBB, symBinAddr: 0x1448B, symSize: 0x0 }
+  - { offsetInCU: 0xBE0, offset: 0xBE0, size: 0x8, addend: 0x0, symName: _hideKaiSwitch, symObjAddr: 0x5DBC, symBinAddr: 0x1448C, symSize: 0x0 }
+  - { offsetInCU: 0xBF5, offset: 0xBF5, size: 0x8, addend: 0x0, symName: _hideAperioSwitch, symObjAddr: 0x5DBD, symBinAddr: 0x1448D, symSize: 0x0 }
+  - { offsetInCU: 0xC0A, offset: 0xC0A, size: 0x8, addend: 0x0, symName: _hideLibellumSwitch, symObjAddr: 0x5DBE, symBinAddr: 0x1448E, symSize: 0x0 }
+  - { offsetInCU: 0xC1F, offset: 0xC1F, size: 0x8, addend: 0x0, symName: _hideVezaSwitch, symObjAddr: 0x5DBF, symBinAddr: 0x1448F, symSize: 0x0 }
+  - { offsetInCU: 0xC34, offset: 0xC34, size: 0x8, addend: 0x0, symName: _hideAxonSwitch, symObjAddr: 0x5DC0, symBinAddr: 0x14490, symSize: 0x0 }
+  - { offsetInCU: 0xC49, offset: 0xC49, size: 0x8, addend: 0x0, symName: _disableTodaySwipeSwitch, symObjAddr: 0x189E3, symBinAddr: 0x144EB, symSize: 0x0 }
+  - { offsetInCU: 0xC5E, offset: 0xC5E, size: 0x8, addend: 0x0, symName: _disableCameraSwipeSwitch, symObjAddr: 0x189E4, symBinAddr: 0x144EC, symSize: 0x0 }
+  - { offsetInCU: 0xC73, offset: 0xC73, size: 0x8, addend: 0x0, symName: _blurredBackgroundSwitch, symObjAddr: 0x189E5, symBinAddr: 0x144ED, symSize: 0x0 }
+  - { offsetInCU: 0xC88, offset: 0xC88, size: 0x8, addend: 0x0, symName: _tapToDismissLisaSwitch, symObjAddr: 0x5DC1, symBinAddr: 0x14491, symSize: 0x0 }
+  - { offsetInCU: 0xC9D, offset: 0xC9D, size: 0x8, addend: 0x0, symName: _backgroundAlphaValue, symObjAddr: 0x5DC8, symBinAddr: 0x14498, symSize: 0x0 }
+  - { offsetInCU: 0xCB2, offset: 0xCB2, size: 0x8, addend: 0x0, symName: _notificationStyleValue, symObjAddr: 0x5DD0, symBinAddr: 0x144A0, symSize: 0x0 }
+  - { offsetInCU: 0xCC7, offset: 0xCC7, size: 0x8, addend: 0x0, symName: _lisaFadeOutAnimationSwitch, symObjAddr: 0x5DD8, symBinAddr: 0x144A8, symSize: 0x0 }
+  - { offsetInCU: 0xCDC, offset: 0xCDC, size: 0x8, addend: 0x0, symName: _lisaFadeOutAnimationValue, symObjAddr: 0x5DE0, symBinAddr: 0x144B0, symSize: 0x0 }
+  - { offsetInCU: 0xCF1, offset: 0xCF1, size: 0x8, addend: 0x0, symName: _hapticFeedbackSwitch, symObjAddr: 0x189E6, symBinAddr: 0x144EE, symSize: 0x0 }
+  - { offsetInCU: 0xD06, offset: 0xD06, size: 0x8, addend: 0x0, symName: _hapticFeedbackStrengthValue, symObjAddr: 0x5DE8, symBinAddr: 0x144B8, symSize: 0x0 }
+  - { offsetInCU: 0xD1B, offset: 0xD1B, size: 0x8, addend: 0x0, symName: _bbServer, symObjAddr: 0x189E8, symBinAddr: 0x144F0, symSize: 0x0 }
+  - { offsetInCU: 0xD53, offset: 0xD53, size: 0x8, addend: 0x0, symName: '__logos_orig$Lisa$CSCoverSheetViewController$viewDidLoad', symObjAddr: 0x189F0, symBinAddr: 0x144F8, symSize: 0x0 }
+  - { offsetInCU: 0x151F, offset: 0x151F, size: 0x8, addend: 0x0, symName: '__logos_orig$Lisa$CSCoverSheetViewController$viewDidDisappear$', symObjAddr: 0x189F8, symBinAddr: 0x14500, symSize: 0x0 }
+  - { offsetInCU: 0x154A, offset: 0x154A, size: 0x8, addend: 0x0, symName: '__logos_orig$Lisa$SBMainDisplayPolicyAggregator$_allowsCapabilityTodayViewWithExplanation$', symObjAddr: 0x18A00, symBinAddr: 0x14508, symSize: 0x0 }
+  - { offsetInCU: 0x158E, offset: 0x158E, size: 0x8, addend: 0x0, symName: '__logos_orig$Lisa$SBMainDisplayPolicyAggregator$_allowsCapabilityLockScreenCameraWithExplanation$', symObjAddr: 0x18A08, symBinAddr: 0x14510, symSize: 0x0 }
+  - { offsetInCU: 0x15A3, offset: 0x15A3, size: 0x8, addend: 0x0, symName: '__logos_orig$Lisa$NCNotificationListView$touchesBegan$withEvent$', symObjAddr: 0x18A10, symBinAddr: 0x14518, symSize: 0x0 }
+  - { offsetInCU: 0x15E3, offset: 0x15E3, size: 0x8, addend: 0x0, symName: '__logos_orig$Lisa$SBBacklightController$turnOnScreenFullyWithBacklightSource$', symObjAddr: 0x18A18, symBinAddr: 0x14520, symSize: 0x0 }
+  - { offsetInCU: 0x161E, offset: 0x161E, size: 0x8, addend: 0x0, symName: '__logos_orig$Lisa$SBLockScreenManager$lockUIFromSource$withOptions$', symObjAddr: 0x18A20, symBinAddr: 0x14528, symSize: 0x0 }
+  - { offsetInCU: 0x1668, offset: 0x1668, size: 0x8, addend: 0x0, symName: '__logos_orig$Lisa$NCNotificationMasterList$notificationCount', symObjAddr: 0x18A28, symBinAddr: 0x14530, symSize: 0x0 }
+  - { offsetInCU: 0x16A2, offset: 0x16A2, size: 0x8, addend: 0x0, symName: '__logos_orig$Lisa$DNDState$isActive', symObjAddr: 0x18A30, symBinAddr: 0x14538, symSize: 0x0 }
+  - { offsetInCU: 0x16DC, offset: 0x16DC, size: 0x8, addend: 0x0, symName: '__logos_orig$Lisa$NCNotificationViewControllerView$initWithFrame$', symObjAddr: 0x18A38, symBinAddr: 0x14540, symSize: 0x0 }
+  - { offsetInCU: 0x1720, offset: 0x1720, size: 0x8, addend: 0x0, symName: '__logos_orig$Lisa$NCNotificationViewControllerView$didMoveToWindow', symObjAddr: 0x18A40, symBinAddr: 0x14548, symSize: 0x0 }
+  - { offsetInCU: 0x174B, offset: 0x174B, size: 0x8, addend: 0x0, symName: '__logos_orig$Lisa$UIStatusBar_Modern$setFrame$', symObjAddr: 0x18A48, symBinAddr: 0x14550, symSize: 0x0 }
+  - { offsetInCU: 0x1790, offset: 0x1790, size: 0x8, addend: 0x0, symName: '__logos_orig$Lisa$SBUIProudLockIconView$initWithFrame$', symObjAddr: 0x18A50, symBinAddr: 0x14558, symSize: 0x0 }
+  - { offsetInCU: 0x17D4, offset: 0x17D4, size: 0x8, addend: 0x0, symName: '__logos_orig$Lisa$SBFLockScreenDateView$initWithFrame$', symObjAddr: 0x18A58, symBinAddr: 0x14560, symSize: 0x0 }
+  - { offsetInCU: 0x1818, offset: 0x1818, size: 0x8, addend: 0x0, symName: '__logos_orig$Lisa$CSQuickActionsButton$initWithFrame$', symObjAddr: 0x18A60, symBinAddr: 0x14568, symSize: 0x0 }
+  - { offsetInCU: 0x185C, offset: 0x185C, size: 0x8, addend: 0x0, symName: '__logos_orig$Lisa$CSTeachableMomentsContainerView$initWithFrame$', symObjAddr: 0x18A68, symBinAddr: 0x14570, symSize: 0x0 }
+  - { offsetInCU: 0x18B9, offset: 0x18B9, size: 0x8, addend: 0x0, symName: '__logos_orig$Lisa$SBUICallToActionLabel$initWithFrame$', symObjAddr: 0x18A70, symBinAddr: 0x14578, symSize: 0x0 }
+  - { offsetInCU: 0x1F90, offset: 0x1F90, size: 0x8, addend: 0x0, symName: '__logos_orig$Lisa$CSHomeAffordanceView$initWithFrame$', symObjAddr: 0x18A78, symBinAddr: 0x14580, symSize: 0x0 }
+  - { offsetInCU: 0x1FD4, offset: 0x1FD4, size: 0x8, addend: 0x0, symName: '__logos_orig$Lisa$CSPageControl$initWithFrame$', symObjAddr: 0x18A80, symBinAddr: 0x14588, symSize: 0x0 }
+  - { offsetInCU: 0x2ABD, offset: 0x2ABD, size: 0x8, addend: 0x0, symName: '__logos_orig$Lisa$ComplicationsView$initWithFrame$', symObjAddr: 0x18A88, symBinAddr: 0x14590, symSize: 0x0 }
+  - { offsetInCU: 0x2B01, offset: 0x2B01, size: 0x8, addend: 0x0, symName: '__logos_orig$Lisa$KAIBatteryPlatter$initWithFrame$', symObjAddr: 0x18A90, symBinAddr: 0x14598, symSize: 0x0 }
+  - { offsetInCU: 0x2B45, offset: 0x2B45, size: 0x8, addend: 0x0, symName: '__logos_orig$Lisa$APEPlatter$initWithFrame$', symObjAddr: 0x18A98, symBinAddr: 0x145A0, symSize: 0x0 }
+  - { offsetInCU: 0x2B89, offset: 0x2B89, size: 0x8, addend: 0x0, symName: '__logos_orig$Lisa$LibellumView$initWithFrame$', symObjAddr: 0x18AA0, symBinAddr: 0x145A8, symSize: 0x0 }
+  - { offsetInCU: 0x2BCD, offset: 0x2BCD, size: 0x8, addend: 0x0, symName: '__logos_orig$Lisa$VezaView$initWithFrame$', symObjAddr: 0x18AA8, symBinAddr: 0x145B0, symSize: 0x0 }
+  - { offsetInCU: 0x2C11, offset: 0x2C11, size: 0x8, addend: 0x0, symName: '__logos_orig$Lisa$AXNView$initWithFrame$', symObjAddr: 0x18AB0, symBinAddr: 0x145B8, symSize: 0x0 }
+  - { offsetInCU: 0x2C55, offset: 0x2C55, size: 0x8, addend: 0x0, symName: '__logos_orig$Lisa$BBServer$initWithQueue$', symObjAddr: 0x18AB8, symBinAddr: 0x145C0, symSize: 0x0 }
+  - { offsetInCU: 0x2C84, offset: 0x2C84, size: 0x8, addend: 0x0, symName: '__logos_orig$Lisa$BBServer$initWithQueue$dataProviderManager$syncService$dismissalSyncCache$observerListener$utilitiesListener$conduitListener$systemStateListener$settingsListener$', symObjAddr: 0x18AC0, symBinAddr: 0x145C8, symSize: 0x0 }
+  - { offsetInCU: 0x2CDB, offset: 0x2CDB, size: 0x8, addend: 0x0, symName: '__logos_orig$Lisa$BBServer$dealloc', symObjAddr: 0x18AC8, symBinAddr: 0x145D0, symSize: 0x0 }
+  - { offsetInCU: 0x2CFA, offset: 0x2CFA, size: 0x8, addend: 0x0, symName: _getBBServerQueue, symObjAddr: 0x5844, symBinAddr: 0xD844, symSize: 0x78 }
+  - { offsetInCU: 0x2D1F, offset: 0x2D1F, size: 0x8, addend: 0x0, symName: _getBBServerQueue.queue, symObjAddr: 0x18AE0, symBinAddr: 0x145E8, symSize: 0x0 }
+  - { offsetInCU: 0x2D34, offset: 0x2D34, size: 0x8, addend: 0x0, symName: _getBBServerQueue.predicate, symObjAddr: 0x18AE8, symBinAddr: 0x145F0, symSize: 0x0 }
+  - { offsetInCU: 0x2E6A, offset: 0x2E6A, size: 0x8, addend: 0x0, symName: _LSATestNotifications, symObjAddr: 0x0, symBinAddr: 0x8000, symSize: 0xFC }
+  - { offsetInCU: 0x2EA2, offset: 0x2EA2, size: 0x8, addend: 0x0, symName: ___LSATestNotifications_block_invoke, symObjAddr: 0xFC, symBinAddr: 0x80FC, symSize: 0x25C }
+  - { offsetInCU: 0x2F07, offset: 0x2F07, size: 0x8, addend: 0x0, symName: _fakeNotification, symObjAddr: 0x358, symBinAddr: 0x8358, symSize: 0x4E0 }
+  - { offsetInCU: 0x2F8B, offset: 0x2F8B, size: 0x8, addend: 0x0, symName: ___LSATestNotifications_block_invoke_2, symObjAddr: 0x838, symBinAddr: 0x8838, symSize: 0x4C }
+  - { offsetInCU: 0x2FC4, offset: 0x2FC4, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s, symObjAddr: 0x884, symBinAddr: 0x8884, symSize: 0x38 }
+  - { offsetInCU: 0x2FE8, offset: 0x2FE8, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s, symObjAddr: 0x8BC, symBinAddr: 0x88BC, symSize: 0x2C }
+  - { offsetInCU: 0x3004, offset: 0x3004, size: 0x8, addend: 0x0, symName: _LSATestBanner, symObjAddr: 0x8E8, symBinAddr: 0x88E8, symSize: 0x58 }
+  - { offsetInCU: 0x3019, offset: 0x3019, size: 0x8, addend: 0x0, symName: __logosLocalCtor_2d623409, symObjAddr: 0x940, symBinAddr: 0x8940, symSize: 0x1CC0 }
+  - { offsetInCU: 0x3490, offset: 0x3490, size: 0x8, addend: 0x0, symName: '__logos_method$Lisa$CSCoverSheetViewController$viewDidLoad', symObjAddr: 0x2600, symBinAddr: 0xA600, symSize: 0xEC }
+  - { offsetInCU: 0x34C2, offset: 0x34C2, size: 0x8, addend: 0x0, symName: '__logos_method$Lisa$CSCoverSheetViewController$viewDidDisappear$', symObjAddr: 0x26EC, symBinAddr: 0xA6EC, symSize: 0x60 }
+  - { offsetInCU: 0x3502, offset: 0x3502, size: 0x8, addend: 0x0, symName: '__logos_method$Lisa$SBMainDisplayPolicyAggregator$_allowsCapabilityTodayViewWithExplanation$', symObjAddr: 0x274C, symBinAddr: 0xA74C, symSize: 0x78 }
+  - { offsetInCU: 0x3546, offset: 0x3546, size: 0x8, addend: 0x0, symName: '__logos_method$Lisa$SBMainDisplayPolicyAggregator$_allowsCapabilityLockScreenCameraWithExplanation$', symObjAddr: 0x27C4, symBinAddr: 0xA7C4, symSize: 0x78 }
+  - { offsetInCU: 0x358A, offset: 0x358A, size: 0x8, addend: 0x0, symName: '__logos_method$Lisa$NCNotificationListView$touchesBegan$withEvent$', symObjAddr: 0x283C, symBinAddr: 0xA83C, symSize: 0x174 }
+  - { offsetInCU: 0x35FC, offset: 0x35FC, size: 0x8, addend: 0x0, symName: '__logos_method$Lisa$SBBacklightController$turnOnScreenFullyWithBacklightSource$', symObjAddr: 0x29B0, symBinAddr: 0xA9B0, symSize: 0x500 }
+  - { offsetInCU: 0x368C, offset: 0x368C, size: 0x8, addend: 0x0, symName: '__logos_method$Lisa$SBLockScreenManager$lockUIFromSource$withOptions$', symObjAddr: 0x2EB0, symBinAddr: 0xAEB0, symSize: 0x74 }
+  - { offsetInCU: 0x36DA, offset: 0x36DA, size: 0x8, addend: 0x0, symName: '__logos_method$Lisa$NCNotificationMasterList$notificationCount', symObjAddr: 0x2F24, symBinAddr: 0xAF24, symSize: 0x44 }
+  - { offsetInCU: 0x3710, offset: 0x3710, size: 0x8, addend: 0x0, symName: '__logos_method$Lisa$DNDState$isActive', symObjAddr: 0x2F68, symBinAddr: 0xAF68, symSize: 0x4C }
+  - { offsetInCU: 0x3746, offset: 0x3746, size: 0x8, addend: 0x0, symName: '__logos_method$Lisa$NCNotificationViewControllerView$initWithFrame$', symObjAddr: 0x2FB4, symBinAddr: 0xAFB4, symSize: 0x140 }
+  - { offsetInCU: 0x37AD, offset: 0x37AD, size: 0x8, addend: 0x0, symName: '__logos_method$Lisa$NCNotificationViewControllerView$didMoveToWindow', symObjAddr: 0x30F4, symBinAddr: 0xB0F4, symSize: 0xA0 }
+  - { offsetInCU: 0x37DF, offset: 0x37DF, size: 0x8, addend: 0x0, symName: '__logos_method$Lisa$NCNotificationViewControllerView$updateNotificationStyle$', symObjAddr: 0x3194, symBinAddr: 0xB194, symSize: 0x130 }
+  - { offsetInCU: 0x381F, offset: 0x381F, size: 0x8, addend: 0x0, symName: '__logos_method$Lisa$UIStatusBar_Modern$setFrame$', symObjAddr: 0x32C4, symBinAddr: 0xB2C4, symSize: 0x104 }
+  - { offsetInCU: 0x3878, offset: 0x3878, size: 0x8, addend: 0x0, symName: '__logos_method$Lisa$UIStatusBar_Modern$receiveHideNotification$', symObjAddr: 0x33C8, symBinAddr: 0xB3C8, symSize: 0x188 }
+  - { offsetInCU: 0x38BC, offset: 0x38BC, size: 0x8, addend: 0x0, symName: '__logos_method$Lisa$SBUIProudLockIconView$initWithFrame$', symObjAddr: 0x3550, symBinAddr: 0xB550, symSize: 0x114 }
+  - { offsetInCU: 0x3919, offset: 0x3919, size: 0x8, addend: 0x0, symName: '__logos_method$Lisa$SBUIProudLockIconView$receiveHideNotification$', symObjAddr: 0x3664, symBinAddr: 0xB664, symSize: 0x144 }
+  - { offsetInCU: 0x395D, offset: 0x395D, size: 0x8, addend: 0x0, symName: '__logos_method$Lisa$SBFLockScreenDateView$initWithFrame$', symObjAddr: 0x37A8, symBinAddr: 0xB7A8, symSize: 0x114 }
+  - { offsetInCU: 0x39BA, offset: 0x39BA, size: 0x8, addend: 0x0, symName: '__logos_method$Lisa$SBFLockScreenDateView$receiveHideNotification$', symObjAddr: 0x38BC, symBinAddr: 0xB8BC, symSize: 0x144 }
+  - { offsetInCU: 0x39FE, offset: 0x39FE, size: 0x8, addend: 0x0, symName: '__logos_method$Lisa$CSQuickActionsButton$initWithFrame$', symObjAddr: 0x3A00, symBinAddr: 0xBA00, symSize: 0x114 }
+  - { offsetInCU: 0x3A5B, offset: 0x3A5B, size: 0x8, addend: 0x0, symName: '__logos_method$Lisa$CSQuickActionsButton$receiveHideNotification$', symObjAddr: 0x3B14, symBinAddr: 0xBB14, symSize: 0x144 }
+  - { offsetInCU: 0x3A9F, offset: 0x3A9F, size: 0x8, addend: 0x0, symName: '__logos_method$Lisa$CSTeachableMomentsContainerView$initWithFrame$', symObjAddr: 0x3C58, symBinAddr: 0xBC58, symSize: 0x124 }
+  - { offsetInCU: 0x3AFC, offset: 0x3AFC, size: 0x8, addend: 0x0, symName: '__logos_method$Lisa$CSTeachableMomentsContainerView$receiveHideNotification$', symObjAddr: 0x3D7C, symBinAddr: 0xBD7C, symSize: 0x1B8 }
+  - { offsetInCU: 0x3B40, offset: 0x3B40, size: 0x8, addend: 0x0, symName: '__logos_method$Lisa$SBUICallToActionLabel$initWithFrame$', symObjAddr: 0x3F34, symBinAddr: 0xBF34, symSize: 0x114 }
+  - { offsetInCU: 0x3B9D, offset: 0x3B9D, size: 0x8, addend: 0x0, symName: '__logos_method$Lisa$SBUICallToActionLabel$receiveHideNotification$', symObjAddr: 0x4048, symBinAddr: 0xC048, symSize: 0x144 }
+  - { offsetInCU: 0x3BE1, offset: 0x3BE1, size: 0x8, addend: 0x0, symName: '__logos_method$Lisa$CSHomeAffordanceView$initWithFrame$', symObjAddr: 0x418C, symBinAddr: 0xC18C, symSize: 0x114 }
+  - { offsetInCU: 0x3C3E, offset: 0x3C3E, size: 0x8, addend: 0x0, symName: '__logos_method$Lisa$CSHomeAffordanceView$receiveHideNotification$', symObjAddr: 0x42A0, symBinAddr: 0xC2A0, symSize: 0x144 }
+  - { offsetInCU: 0x3C82, offset: 0x3C82, size: 0x8, addend: 0x0, symName: '__logos_method$Lisa$CSPageControl$initWithFrame$', symObjAddr: 0x43E4, symBinAddr: 0xC3E4, symSize: 0x114 }
+  - { offsetInCU: 0x3CDF, offset: 0x3CDF, size: 0x8, addend: 0x0, symName: '__logos_method$Lisa$CSPageControl$receiveHideNotification$', symObjAddr: 0x44F8, symBinAddr: 0xC4F8, symSize: 0x144 }
+  - { offsetInCU: 0x3D23, offset: 0x3D23, size: 0x8, addend: 0x0, symName: '__logos_method$Lisa$ComplicationsView$initWithFrame$', symObjAddr: 0x463C, symBinAddr: 0xC63C, symSize: 0x114 }
+  - { offsetInCU: 0x3D80, offset: 0x3D80, size: 0x8, addend: 0x0, symName: '__logos_method$Lisa$ComplicationsView$receiveHideNotification$', symObjAddr: 0x4750, symBinAddr: 0xC750, symSize: 0x144 }
+  - { offsetInCU: 0x3DC4, offset: 0x3DC4, size: 0x8, addend: 0x0, symName: '__logos_method$Lisa$KAIBatteryPlatter$initWithFrame$', symObjAddr: 0x4894, symBinAddr: 0xC894, symSize: 0x114 }
+  - { offsetInCU: 0x3E21, offset: 0x3E21, size: 0x8, addend: 0x0, symName: '__logos_method$Lisa$KAIBatteryPlatter$receiveHideNotification$', symObjAddr: 0x49A8, symBinAddr: 0xC9A8, symSize: 0x144 }
+  - { offsetInCU: 0x3E65, offset: 0x3E65, size: 0x8, addend: 0x0, symName: '__logos_method$Lisa$APEPlatter$initWithFrame$', symObjAddr: 0x4AEC, symBinAddr: 0xCAEC, symSize: 0x114 }
+  - { offsetInCU: 0x3EC2, offset: 0x3EC2, size: 0x8, addend: 0x0, symName: '__logos_method$Lisa$APEPlatter$receiveHideNotification$', symObjAddr: 0x4C00, symBinAddr: 0xCC00, symSize: 0x144 }
+  - { offsetInCU: 0x3F06, offset: 0x3F06, size: 0x8, addend: 0x0, symName: '__logos_method$Lisa$LibellumView$initWithFrame$', symObjAddr: 0x4D44, symBinAddr: 0xCD44, symSize: 0x114 }
+  - { offsetInCU: 0x3F63, offset: 0x3F63, size: 0x8, addend: 0x0, symName: '__logos_method$Lisa$LibellumView$receiveHideNotification$', symObjAddr: 0x4E58, symBinAddr: 0xCE58, symSize: 0x144 }
+  - { offsetInCU: 0x3FA7, offset: 0x3FA7, size: 0x8, addend: 0x0, symName: '__logos_method$Lisa$VezaView$initWithFrame$', symObjAddr: 0x4F9C, symBinAddr: 0xCF9C, symSize: 0x114 }
+  - { offsetInCU: 0x4004, offset: 0x4004, size: 0x8, addend: 0x0, symName: '__logos_method$Lisa$VezaView$receiveHideNotification$', symObjAddr: 0x50B0, symBinAddr: 0xD0B0, symSize: 0x144 }
+  - { offsetInCU: 0x4048, offset: 0x4048, size: 0x8, addend: 0x0, symName: '__logos_method$Lisa$AXNView$initWithFrame$', symObjAddr: 0x51F4, symBinAddr: 0xD1F4, symSize: 0x114 }
+  - { offsetInCU: 0x40A5, offset: 0x40A5, size: 0x8, addend: 0x0, symName: '__logos_method$Lisa$AXNView$receiveHideNotification$', symObjAddr: 0x5308, symBinAddr: 0xD308, symSize: 0x144 }
+  - { offsetInCU: 0x40E9, offset: 0x40E9, size: 0x8, addend: 0x0, symName: '__logos_method$Lisa$BBServer$initWithQueue$', symObjAddr: 0x544C, symBinAddr: 0xD44C, symSize: 0xB4 }
+  - { offsetInCU: 0x4131, offset: 0x4131, size: 0x8, addend: 0x0, symName: '__logos_method$Lisa$BBServer$initWithQueue$dataProviderManager$syncService$dismissalSyncCache$observerListener$utilitiesListener$conduitListener$systemStateListener$settingsListener$', symObjAddr: 0x5500, symBinAddr: 0xD500, symSize: 0x218 }
+  - { offsetInCU: 0x41F6, offset: 0x41F6, size: 0x8, addend: 0x0, symName: '__logos_method$Lisa$BBServer$dealloc', symObjAddr: 0x5718, symBinAddr: 0xD718, symSize: 0x64 }
+  - { offsetInCU: 0x422B, offset: 0x422B, size: 0x8, addend: 0x0, symName: ___fakeNotification_block_invoke, symObjAddr: 0x577C, symBinAddr: 0xD77C, symSize: 0x40 }
+  - { offsetInCU: 0x4264, offset: 0x4264, size: 0x8, addend: 0x0, symName: ___fakeNotification_block_invoke_2, symObjAddr: 0x57BC, symBinAddr: 0xD7BC, symSize: 0x48 }
+  - { offsetInCU: 0x429D, offset: 0x429D, size: 0x8, addend: 0x0, symName: ___fakeNotification_block_invoke_3, symObjAddr: 0x5804, symBinAddr: 0xD804, symSize: 0x40 }
+  - { offsetInCU: 0x4360, offset: 0x4360, size: 0x8, addend: 0x0, symName: ___getBBServerQueue_block_invoke, symObjAddr: 0x58BC, symBinAddr: 0xD8BC, symSize: 0x9C }
+  - { offsetInCU: 0x43C0, offset: 0x43C0, size: 0x8, addend: 0x0, symName: '____logos_method$Lisa$NCNotificationListView$touchesBegan$withEvent$_block_invoke', symObjAddr: 0x5958, symBinAddr: 0xD958, symSize: 0x34 }
+  - { offsetInCU: 0x43E8, offset: 0x43E8, size: 0x8, addend: 0x0, symName: '____logos_method$Lisa$NCNotificationListView$touchesBegan$withEvent$_block_invoke_2', symObjAddr: 0x598C, symBinAddr: 0xD98C, symSize: 0x74 }
+  - { offsetInCU: 0x441E, offset: 0x441E, size: 0x8, addend: 0x0, symName: '____logos_method$Lisa$UIStatusBar_Modern$receiveHideNotification$_block_invoke', symObjAddr: 0x5A00, symBinAddr: 0xDA00, symSize: 0x54 }
+  - { offsetInCU: 0x445A, offset: 0x445A, size: 0x8, addend: 0x0, symName: '____logos_method$Lisa$SBUIProudLockIconView$receiveHideNotification$_block_invoke', symObjAddr: 0x5A54, symBinAddr: 0xDA54, symSize: 0x38 }
+  - { offsetInCU: 0x4496, offset: 0x4496, size: 0x8, addend: 0x0, symName: '____logos_method$Lisa$SBFLockScreenDateView$receiveHideNotification$_block_invoke', symObjAddr: 0x5A8C, symBinAddr: 0xDA8C, symSize: 0x38 }
+  - { offsetInCU: 0x44D2, offset: 0x44D2, size: 0x8, addend: 0x0, symName: '____logos_method$Lisa$CSQuickActionsButton$receiveHideNotification$_block_invoke', symObjAddr: 0x5AC4, symBinAddr: 0xDAC4, symSize: 0x38 }
+  - { offsetInCU: 0x450E, offset: 0x450E, size: 0x8, addend: 0x0, symName: '____logos_method$Lisa$CSTeachableMomentsContainerView$receiveHideNotification$_block_invoke', symObjAddr: 0x5AFC, symBinAddr: 0xDAFC, symSize: 0xB8 }
+  - { offsetInCU: 0x454A, offset: 0x454A, size: 0x8, addend: 0x0, symName: '____logos_method$Lisa$SBUICallToActionLabel$receiveHideNotification$_block_invoke', symObjAddr: 0x5BB4, symBinAddr: 0xDBB4, symSize: 0x38 }
+  - { offsetInCU: 0x4586, offset: 0x4586, size: 0x8, addend: 0x0, symName: '____logos_method$Lisa$CSHomeAffordanceView$receiveHideNotification$_block_invoke', symObjAddr: 0x5BEC, symBinAddr: 0xDBEC, symSize: 0x38 }
+  - { offsetInCU: 0x45C2, offset: 0x45C2, size: 0x8, addend: 0x0, symName: '____logos_method$Lisa$CSPageControl$receiveHideNotification$_block_invoke', symObjAddr: 0x5C24, symBinAddr: 0xDC24, symSize: 0x38 }
+  - { offsetInCU: 0x45FE, offset: 0x45FE, size: 0x8, addend: 0x0, symName: '____logos_method$Lisa$ComplicationsView$receiveHideNotification$_block_invoke', symObjAddr: 0x5C5C, symBinAddr: 0xDC5C, symSize: 0x38 }
+  - { offsetInCU: 0x463A, offset: 0x463A, size: 0x8, addend: 0x0, symName: '____logos_method$Lisa$KAIBatteryPlatter$receiveHideNotification$_block_invoke', symObjAddr: 0x5C94, symBinAddr: 0xDC94, symSize: 0x38 }
+  - { offsetInCU: 0x4676, offset: 0x4676, size: 0x8, addend: 0x0, symName: '____logos_method$Lisa$APEPlatter$receiveHideNotification$_block_invoke', symObjAddr: 0x5CCC, symBinAddr: 0xDCCC, symSize: 0x38 }
+  - { offsetInCU: 0x46B2, offset: 0x46B2, size: 0x8, addend: 0x0, symName: '____logos_method$Lisa$LibellumView$receiveHideNotification$_block_invoke', symObjAddr: 0x5D04, symBinAddr: 0xDD04, symSize: 0x38 }
+  - { offsetInCU: 0x46EE, offset: 0x46EE, size: 0x8, addend: 0x0, symName: '____logos_method$Lisa$VezaView$receiveHideNotification$_block_invoke', symObjAddr: 0x5D3C, symBinAddr: 0xDD3C, symSize: 0x38 }
+  - { offsetInCU: 0x472A, offset: 0x472A, size: 0x8, addend: 0x0, symName: '____logos_method$Lisa$AXNView$receiveHideNotification$_block_invoke', symObjAddr: 0x5D74, symBinAddr: 0xDD74, symSize: 0x38 }
+  - { offsetInCU: 0x1E, offset: 0x58CA, size: 0x8, addend: 0x0, symName: '-[LisaView initWithFrame:]', symObjAddr: 0x0, symBinAddr: 0xDDAC, symSize: 0x388 }
+  - { offsetInCU: 0xA21, offset: 0x62CD, size: 0x8, addend: 0x0, symName: '-[LisaView initWithFrame:]', symObjAddr: 0x0, symBinAddr: 0xDDAC, symSize: 0x388 }
+  - { offsetInCU: 0xA83, offset: 0x632F, size: 0x8, addend: 0x0, symName: '-[LisaView setVisible:]', symObjAddr: 0x388, symBinAddr: 0xE134, symSize: 0xF8 }
+  - { offsetInCU: 0xAD1, offset: 0x637D, size: 0x8, addend: 0x0, symName: '-[LisaView playHapticFeedback]', symObjAddr: 0x480, symBinAddr: 0xE22C, symSize: 0xE4 }
+  - { offsetInCU: 0xB11, offset: 0x63BD, size: 0x8, addend: 0x0, symName: '-[LisaView preferences]', symObjAddr: 0x564, symBinAddr: 0xE310, symSize: 0x24 }
+  - { offsetInCU: 0xB47, offset: 0x63F3, size: 0x8, addend: 0x0, symName: '-[LisaView setPreferences:]', symObjAddr: 0x588, symBinAddr: 0xE334, symSize: 0x3C }
+  - { offsetInCU: 0xB85, offset: 0x6431, size: 0x8, addend: 0x0, symName: '-[LisaView blur]', symObjAddr: 0x5C4, symBinAddr: 0xE370, symSize: 0x24 }
+  - { offsetInCU: 0xBBB, offset: 0x6467, size: 0x8, addend: 0x0, symName: '-[LisaView setBlur:]', symObjAddr: 0x5E8, symBinAddr: 0xE394, symSize: 0x3C }
+  - { offsetInCU: 0xBF9, offset: 0x64A5, size: 0x8, addend: 0x0, symName: '-[LisaView blurView]', symObjAddr: 0x624, symBinAddr: 0xE3D0, symSize: 0x24 }
+  - { offsetInCU: 0xC2F, offset: 0x64DB, size: 0x8, addend: 0x0, symName: '-[LisaView setBlurView:]', symObjAddr: 0x648, symBinAddr: 0xE3F4, symSize: 0x3C }
+  - { offsetInCU: 0xC6D, offset: 0x6519, size: 0x8, addend: 0x0, symName: '-[LisaView .cxx_destruct]', symObjAddr: 0x684, symBinAddr: 0xE430, symSize: 0x70 }
+...
