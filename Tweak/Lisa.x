@@ -21,7 +21,7 @@ static dispatch_queue_t getBBServerQueue() {
 }
 
 static void fakeNotification(NSString* sectionID, NSDate* date, NSString* message, bool banner) {
-    
+
 	BBBulletin* bulletin = [[%c(BBBulletin) alloc] init];
 
 	bulletin.title = @"Lisa";
@@ -163,7 +163,7 @@ void LSATestBanner() {
 
     if (![[%c(SBLockScreenManager) sharedInstance] isLockScreenVisible]) return;
     if (onlyWhileChargingSwitch && ![[%c(SBUIController) sharedInstance] isOnAC]) return;
-    
+
     if (onlyWhenDNDIsActiveSwitch && isDNDActive) {
         if (whenNotificationArrivesSwitch && arg1 == 12)
             [lisaView setVisible:YES];
@@ -676,13 +676,13 @@ void LSATestBanner() {
 - (id)initWithQueue:(id)arg1 {
 
     bbServer = %orig;
-    
+
     return bbServer;
 
 }
 
 - (id)initWithQueue:(id)arg1 dataProviderManager:(id)arg2 syncService:(id)arg3 dismissalSyncCache:(id)arg4 observerListener:(id)arg5 utilitiesListener:(id)arg6 conduitListener:(id)arg7 systemStateListener:(id)arg8 settingsListener:(id)arg9 {
-    
+
     bbServer = %orig;
 
     return bbServer;
@@ -733,7 +733,7 @@ void LSATestBanner() {
     [preferences registerBool:&tapToDismissLisaSwitch default:YES forKey:@"tapToDismissLisa"];
     [preferences registerObject:&backgroundAlphaValue default:@"1" forKey:@"backgroundAlpha"];
     [preferences registerObject:&notificationStyleValue default:@"0" forKey:@"notificationStyle"];
-    
+
     // animations
     [preferences registerBool:&lisaFadeOutAnimationSwitch default:YES forKey:@"lisaFadeOutAnimation"];
     [preferences registerObject:&lisaFadeOutAnimationValue default:@"0.5" forKey:@"lisaFadeOutAnimation"];
@@ -742,12 +742,12 @@ void LSATestBanner() {
     [preferences registerBool:&hapticFeedbackSwitch default:NO forKey:@"hapticFeedback"];
     if (hapticFeedbackSwitch) [preferences registerObject:&hapticFeedbackStrengthValue default:@"0" forKey:@"hapticFeedbackStrength"];
 
-    if (hideComplicationsSwitch && [[NSFileManager defaultManager] fileExistsAtPath:@"/Library/MobileSubstrate/DynamicLibraries/Complications.dylib"]) dlopen("/Library/MobileSubstrate/DynamicLibraries/Complications.dylib", RTLD_NOW);
-    if (hideKaiSwitch && [[NSFileManager defaultManager] fileExistsAtPath:@"/Library/MobileSubstrate/DynamicLibraries/Kai.dylib"]) dlopen("/Library/MobileSubstrate/DynamicLibraries/Kai.dylib", RTLD_NOW);
-    if (hideAperioSwitch && [[NSFileManager defaultManager] fileExistsAtPath:@"/Library/MobileSubstrate/DynamicLibraries/Aperio.dylib"]) dlopen("/Library/MobileSubstrate/DynamicLibraries/Aperio.dylib", RTLD_NOW);
-    if (hideLibellumSwitch && [[NSFileManager defaultManager] fileExistsAtPath:@"/Library/MobileSubstrate/DynamicLibraries/Libellum.dylib"]) dlopen("/Library/MobileSubstrate/DynamicLibraries/Libellum.dylib", RTLD_NOW);
-    if (hideVezaSwitch && [[NSFileManager defaultManager] fileExistsAtPath:@"/Library/MobileSubstrate/DynamicLibraries/Veza.dylib"]) dlopen("/Library/MobileSubstrate/DynamicLibraries/Veza.dylib", RTLD_NOW);
-    if (hideAxonSwitch && [[NSFileManager defaultManager] fileExistsAtPath:@"/Library/MobileSubstrate/DynamicLibraries/Axon.dylib"]) dlopen("/Library/MobileSubstrate/DynamicLibraries/Axon.dylib", RTLD_NOW);
+    if (hideComplicationsSwitch && [[NSFileManager defaultManager] fileExistsAtPath:@"/var/jb/Library/MobileSubstrate/DynamicLibraries/Complications.dylib"]) dlopen("/Library/MobileSubstrate/DynamicLibraries/Complications.dylib", RTLD_NOW);
+    if (hideKaiSwitch && [[NSFileManager defaultManager] fileExistsAtPath:@"/var/jb/Library/MobileSubstrate/DynamicLibraries/Kai.dylib"]) dlopen("/Library/MobileSubstrate/DynamicLibraries/Kai.dylib", RTLD_NOW);
+    if (hideAperioSwitch && [[NSFileManager defaultManager] fileExistsAtPath:@"/var/jb/Library/MobileSubstrate/DynamicLibraries/Aperio.dylib"]) dlopen("/Library/MobileSubstrate/DynamicLibraries/Aperio.dylib", RTLD_NOW);
+    if (hideLibellumSwitch && [[NSFileManager defaultManager] fileExistsAtPath:@"/var/jb/Library/MobileSubstrate/DynamicLibraries/Libellum.dylib"]) dlopen("/Library/MobileSubstrate/DynamicLibraries/Libellum.dylib", RTLD_NOW);
+    if (hideVezaSwitch && [[NSFileManager defaultManager] fileExistsAtPath:@"/var/jb/Library/MobileSubstrate/DynamicLibraries/Veza.dylib"]) dlopen("/Library/MobileSubstrate/DynamicLibraries/Veza.dylib", RTLD_NOW);
+    if (hideAxonSwitch && [[NSFileManager defaultManager] fileExistsAtPath:@"/var/jb/Library/MobileSubstrate/DynamicLibraries/Axon.dylib"]) dlopen("/Library/MobileSubstrate/DynamicLibraries/Axon.dylib", RTLD_NOW);
 
     %init(Lisa);
 
