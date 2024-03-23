@@ -42,7 +42,7 @@
 
     self.iconView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 10, 10)];
     [[self iconView] setContentMode:UIViewContentModeScaleAspectFit];
-    [[self iconView] setImage:[UIImage imageWithContentsOfFile:@"/Library/PreferenceBundles/LisaPreferences.bundle/icon.png"]];
+    [[self iconView] setImage:[UIImage imageWithContentsOfFile:@"/var/jb/Library/PreferenceBundles/LisaPreferences.bundle/icon.png"]];
     [[self iconView] setAlpha:0];
     [[[self navigationItem] titleView] addSubview:[self iconView]];
 
@@ -62,7 +62,7 @@
     self.headerView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 200, 200)];
     self.headerImageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 200, 200)];
     [[self headerImageView] setContentMode:UIViewContentModeScaleAspectFill];
-    [[self headerImageView] setImage:[UIImage imageWithContentsOfFile:@"/Library/PreferenceBundles/LisaPreferences.bundle/Banner.png"]];
+    [[self headerImageView] setImage:[UIImage imageWithContentsOfFile:@"/var/jb/Library/PreferenceBundles/LisaPreferences.bundle/Banner.png"]];
     [[self headerImageView] setClipsToBounds:YES];
     [[self headerView] addSubview:[self headerImageView]];
 
@@ -74,7 +74,7 @@
         [self.headerImageView.bottomAnchor constraintEqualToAnchor:self.headerView.bottomAnchor],
     ]];
 
-    if ([[NSFileManager defaultManager] fileExistsAtPath:@"/Library/MobileSubstrate/DynamicLibraries/Lisa.disabled"]) {
+    if ([[NSFileManager defaultManager] fileExistsAtPath:@"/var/jb/Library/MobileSubstrate/DynamicLibraries/Lisa.disabled"]) {
         [[self enableSwitch] setEnabled:NO];
 
         UIAlertController* alertController = [UIAlertController alertControllerWithTitle:@"Lisa" message:@"Lisa has detected that you have disabled it with iCleaner Pro, here are some quick actions you can perform" preferredStyle:UIAlertControllerStyleAlert];
