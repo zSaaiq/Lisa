@@ -4,7 +4,9 @@ Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware 
 Version: 1.7
 Architecture: iphoneos-arm
 Description: Full incoming OLED notifications
-Maintainer: Litten
+Maintainer: zSaaiq
 Author: Litten & Esquilli
 Section: Tweaks
+Depiction: https://zsaaiq.github.io/jailbreakrepo/depictions/lisa.html
+SileoDepiction: https://zsaaiq.github.io/jailbreakrepo/sileodepictions/lisa.json
 Icon: https://zsaaiq.github.io/jailbreakrepo/images/Lisa.png
