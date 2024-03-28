@@ -19,6 +19,18 @@
 			<key>defaults</key>
 			<string>love.litten.lisapreferences</string>
 			<key>key</key>
+			<string>enableLisaWhenUnlocked</string>
+			<key>label</key>
+			<string>when unlocked</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>love.litten.lisapreferences</string>
+			<key>key</key>
 			<string>onlyWhenDNDIsActive</string>
 			<key>label</key>
 			<string>Only While DND Is Active</string>

@@ -99,7 +99,9 @@ void LSATestBanner() {
 - (void)viewDidDisappear:(BOOL)animated { // hide lisa when unlocked
 
     %orig;
-
+    if (enableLisaWhenUnlocked)
+    [lisaView setVisible:YES];
+    else
     [lisaView setVisible:NO];
 
 }
@@ -708,6 +710,9 @@ void LSATestBanner() {
     if (!enabled) return;
 
     // customization
+
+    [preferences registerBool:&enableLisaWhenUnlocked default:NO forKey:@"enableLisaWhenUnlocked"];
+
     [preferences registerBool:&onlyWhenDNDIsActiveSwitch default:NO forKey:@"onlyWhenDNDIsActive"];
     [preferences registerBool:&whenNotificationArrivesSwitch default:YES forKey:@"whenNotificationArrives"];
     [preferences registerBool:&alwaysWhenNotificationsArePresentedSwitch default:YES forKey:@"alwaysWhenNotificationsArePresented"];

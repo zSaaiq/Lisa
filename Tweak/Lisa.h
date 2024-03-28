@@ -12,10 +12,12 @@ LisaView* lisaView = nil;
 BOOL isScreenOn = NO;
 int previousNotificationStyle = 0;
 BOOL hasAddedStatusBarObserver = NO;
+
 int notificationCount = 0;
 BOOL isDNDActive = NO;
 
 // customization
+BOOL enableLisaWhenUnlocked = NO;
 BOOL onlyWhenDNDIsActiveSwitch = NO;
 BOOL whenNotificationArrivesSwitch = YES;
 BOOL alwaysWhenNotificationsArePresentedSwitch = YES;
