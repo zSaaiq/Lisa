@@ -1,15 +1,15 @@
 # Lisa 💅🏻
-Full incoming OLED notifications
+Full incoming OLED notifications for iOS 15 Rootless Jailbreaks
 
 ## Preview
 <img src="Preview.png">
 
 ## Installation
-1. Add this repository to your package manager: `TBD`
+1. Add this repository to your package manager: https://zsaaiq.github.io/jailbreakrepo/
 2. Install Lisa
 
 ## Compatibility
-iPhone, iPad and iPod running iOS/iPadOS 13 or later
+iPhone, iPad and iPod running iOS/iPadOS 15 or later
 
 ## Compiling
   - [Theos](https://theos.dev/) is required to compile the project
